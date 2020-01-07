@@ -1,0 +1,99 @@
+html
+{
+  height: 100%;
+}
+
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  font-size: small;
+}
+
+a
+{
+  text-decoration: none;
+  color:gray;
+  margin: 5px 10px 5px 10px;
+}
+
+p
+{
+  color:gray;
+  margin: 5px 10px 5px 10px;
+  font-size: medium;
+}
+
+.haut_page
+{
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  align-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.centre_page
+{
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 10px 10px 10px 10px;
+}
+
+.barre_recherche
+{
+  margin: 20px 0px 10px 0px;
+  border:gray;
+}
+
+.boutons_centre_page
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.button_recherche, .button_chance
+{
+  margin:10px 10px 10px 10px;
+  padding: 8px 30px 8px 30px;
+  color: dimgrey;
+  background: #F4F4F4;
+  border-radius:2px;
+  border: #C6C6C6;
+  text-decoration: none;
+  font-size: small;
+}
+
+.bas_page
+{
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #F2F2F2;
+
+}
+
+.connect
+{
+  font-weight: bold;
+  color: #ffffff;
+  padding:6px 6px 6px 6px;
+	background:#478bf9;
+	border-radius:2px;
+	border:none;
+  text-decoration: none;
+  font-size: small;
+}
+
+.france
+{
+  text-align: left;
+}
